@@ -1,0 +1,89 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    @apply transition-colors duration-300;
+  }
+  .font-serif-heading {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-cursive {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-handwritten {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Premium Glassmorphism classes */
+  .glassmorphism {
+    @apply bg-white/40 border border-white/20 shadow-lg backdrop-blur-md;
+  }
+  
+  .glassmorphism-dark {
+    @apply bg-zinc-950/40 border border-zinc-800/40 shadow-xl backdrop-blur-md;
+  }
+
+  .glassmorphism-card {
+    @apply bg-white/35 dark:bg-zinc-950/35 border border-white/25 dark:border-zinc-800/30 shadow-lg backdrop-blur-md rounded-[20px] transition-all duration-300;
+  }
+
+  .glassmorphism-card:hover {
+    @apply bg-white/50 dark:bg-zinc-950/50 border-white/40 dark:border-zinc-700/40 shadow-xl shadow-primary/5 dark:shadow-primary/5 translate-y-[-4px];
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(195, 139, 112, 0.4);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-[#E5B7A1] to-[#9E644A];
+  }
+
+  .bg-gradient-mesh {
+    background-color: #FFFFFF;
+    background-image: 
+      radial-gradient(at 10% 20%, rgba(244, 244, 245, 0.5) 0px, transparent 50%),
+      radial-gradient(at 90% 10%, rgba(244, 244, 245, 0.5) 0px, transparent 50%),
+      radial-gradient(at 50% 80%, rgba(228, 228, 231, 0.2) 0px, transparent 50%);
+  }
+
+  .bg-gradient-mesh-dark {
+    background-image: 
+      radial-gradient(at 10% 20%, rgba(42, 30, 26, 0.6) 0px, transparent 50%),
+      radial-gradient(at 90% 10%, rgba(31, 36, 30, 0.3) 0px, transparent 50%),
+      radial-gradient(at 50% 80%, rgba(22, 17, 14, 0.8) 0px, transparent 50%);
+  }
+}
+
+/* Custom Webkit Scrollbars in lavender theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary/50 dark:bg-darkBg/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/40 hover:bg-primary/60 dark:bg-primary/20 dark:hover:bg-primary/40 rounded-full transition-all;
+}
+
+/* Typing indicator custom blink */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  @apply text-primary font-light ml-0.5;
+}

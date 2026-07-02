@@ -1,0 +1,68 @@
+======================================================================
+                     GOGINENI JAASMITHA
+                 AI & Data Science Student
+======================================================================
+Email: jaasmitha.gogineni@email.com
+Phone: +91 98765 43210
+Location: Hyderabad, India
+LinkedIn: linkedin.com/in/jaasmitha-gogineni
+GitHub: github.com/jaasmitha-gogineni
+
+----------------------------------------------------------------------
+PROFESSIONAL SUMMARY
+----------------------------------------------------------------------
+Aspiring AI and Data Science specialist with solid foundations in 
+Machine Learning, Deep Learning, Computer Vision, and Natural Language
+Processing. Passionate about solving complex healthcare and business
+problems using state-of-the-art architectures like Vision Transformers 
+(ViT) and Large Language Models.
+
+----------------------------------------------------------------------
+EDUCATION
+----------------------------------------------------------------------
+Bachelor of Technology (B.Tech) in Artificial Intelligence & Data Science
+Expected Graduation: 2027
+GPA: 9.2/10.0
+Key Coursework: Deep Learning, Data Analytics, Natural Language Processing,
+Database Management Systems, Computer Vision.
+
+----------------------------------------------------------------------
+TECHNICAL SKILLS
+----------------------------------------------------------------------
+- Languages: Python, SQL, C++, Java
+- ML & DL Frameworks: PyTorch, TensorFlow, Scikit-Learn
+- Data Analytics: Pandas, NumPy, Power BI, Matplotlib, Seaborn
+- Computer Vision: OpenCV, Vision Transformers (ViT)
+- NLP & LLMs: Hugging Face Transformers, NLTK, Spacy
+- Tools: Git, VS Code, Jupyter Notebooks
+
+----------------------------------------------------------------------
+FEATURED PROJECTS
+----------------------------------------------------------------------
+1. Tumor Detection using Vision Transformers (ViT)
+   - Built a Vision Transformer classifier using PyTorch to identify 
+     brain and lung tumors from MRI/CT scans.
+   - Achieved 94.5% classification accuracy, outperforming standard CNNs.
+   - Technologies: Python, PyTorch, OpenCV, Hugging Face
+
+2. AI Spam Detection System
+   - Designed a robust spam detector using NLP processing and Scikit-Learn.
+   - Evaluated TF-IDF vectorization and Naive Bayes / SVM classifiers.
+   - Achieved 98.2% accuracy on public datasets.
+   - Technologies: Python, NLTK, Scikit-Learn, ML
+
+3. Data Analytics Dashboard
+   - Formulated an interactive sales and customer performance dashboard 
+     utilizing SQL for querying and Power BI/Pandas for visualization.
+   - Identified 15% revenue leakage and optimized delivery schedules.
+   - Technologies: Python, Pandas, Power BI, SQL, Matplotlib
+
+----------------------------------------------------------------------
+CERTIFICATIONS
+----------------------------------------------------------------------
+- Deep Learning Specialization (DeepLearning.AI) - 2025
+- Neural Networks and Deep Learning (Coursera) - 2024
+- Power BI Data Analyst Associate (Microsoft) - 2024
+- Machine Learning with Python (IBM) - 2023
+
+======================================================================
