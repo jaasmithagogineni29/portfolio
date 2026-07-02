@@ -73,7 +73,7 @@ export const Hero: React.FC = () => {
               {[
                 {
                   icon: <Github size={17} />,
-                  href: "https://github.com/Jaasmitha2004",
+                  href: "https://github.com/jaasmithagogineni29",
                   label: "GitHub"
                 },
                 {

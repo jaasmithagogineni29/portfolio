@@ -2,7 +2,7 @@
 
 A premium, interactive, and modern portfolio website showcasing projects, skills, certifications, and educational background. Designed with a custom glassmorphic aesthetic, smooth micro-animations, and custom graphics.
 
-🔗 **Live Portfolio:** [https://jaasmitha2004.github.io](https://github.com/Jaasmitha2004)  
+🔗 **Live Portfolio:** [https://jaasmithagogineni29.github.io/portfolio](https://jaasmithagogineni29.github.io/portfolio)  
 📬 **Contact:** [jaasmithagogineni2006@gmail.com](mailto:jaasmithagogineni2006@gmail.com) | [LinkedIn](https://linkedin.com/in/jaasmitha-gogineni)
 
 ---
@@ -64,8 +64,8 @@ To clone and run the portfolio locally on your system, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Jaasmitha2004/jaasmitha-peach.git
-   cd jaasmitha-peach
+   git clone https://github.com/jaasmithagogineni29/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies:**
@@ -85,4 +85,4 @@ To clone and run the portfolio locally on your system, follow these steps:
 
 ---
 
-*Designed and developed by [Gogineni Jaasmitha](https://github.com/Jaasmitha2004) © 2026.*
+*Designed and developed by [Gogineni Jaasmitha](https://github.com/jaasmithagogineni29) © 2026.*

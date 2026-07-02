@@ -167,7 +167,7 @@ export const Contact: React.FC = () => {
 
                   {/* GitHub */}
                   <a
-                    href="https://github.com/Jaasmitha2004"
+                    href="https://github.com/jaasmithagogineni29"
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-4 group"
@@ -180,7 +180,7 @@ export const Contact: React.FC = () => {
                         GitHub
                       </p>
                       <p className="text-xs font-bold text-[#2D231E] dark:text-[#FAF5F0] mt-0.5">
-                        github.com/Jaasmitha2004
+                        github.com/jaasmithagogineni29
                       </p>
                     </div>
                   </a>
