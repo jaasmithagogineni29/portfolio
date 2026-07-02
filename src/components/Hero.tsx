@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
+import passphotoImg from '../assets/passphoto.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -56,13 +57,13 @@ export const Hero: React.FC = () => {
             <div className="flex flex-wrap items-center gap-4 mb-8">
               <a
                 href="#projects"
-                className="flex items-center gap-2 px-6 py-3.5 bg-[#2D231E] hover:bg-[#2D231E]/90 dark:bg-[#FAF5F0] dark:hover:bg-[#FAF5F0]/90 text-[#FAF5F0] dark:text-[#2D231E] font-bold text-xs sm:text-sm rounded-xl shadow-md transition-all duration-200"
+                className="flex items-center gap-2 px-6 py-3.5 bg-[#2D231E] hover:bg-[#2D231E]/90 dark:bg-[#FAF5F0] dark:hover:bg-[#FAF5F0]/90 text-[#FAF5F0] dark:text-[#2D231E] font-bold text-xs [...]
               >
                 <span>View Projects</span>
               </a>
               <a
                 href="#contact"
-                className="flex items-center gap-2 px-6 py-3.5 border border-[#2D231E] dark:border-[#FAF5F0] text-[#2D231E] dark:text-[#FAF5F0] hover:bg-[#2D231E]/5 dark:hover:bg-[#FAF5F0]/5 font-bold text-xs sm:text-sm rounded-xl transition-all duration-200"
+                className="flex items-center gap-2 px-6 py-3.5 border border-[#2D231E] dark:border-[#FAF5F0] text-[#2D231E] dark:text-[#FAF5F0] hover:bg-[#2D231E]/5 dark:hover:bg-[#FAF5F0]/5 font-[...]
               >
                 <span>Contact Me</span>
               </a>
@@ -88,7 +89,7 @@ export const Hero: React.FC = () => {
                 },
                 {
                   icon: <FileText size={17} />,
-                  href: "/Gogineni_Jaasmitha_Resume.txt",
+                  href="/portfolio/Gogineni_Jaasmitha_Resume.txt",
                   label: "Resume"
                 }
               ].map((social) => (
@@ -97,7 +98,7 @@ export const Hero: React.FC = () => {
                   href={social.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-10 h-10 bg-white dark:bg-[#221815] border border-[#2D231E]/10 dark:border-[#FAF5F0]/10 rounded-full flex items-center justify-center text-[#2D231E] dark:text-[#FAF5F0] hover:bg-[#C38B70]/10 dark:hover:bg-[#E5A587]/15 hover:scale-105 transition-all duration-200 shadow-sm"
+                  className="w-10 h-10 bg-white dark:bg-[#221815] border border-[#2D231E]/10 dark:border-[#FAF5F0]/10 rounded-full flex items-center justify-center text-[#2D231E] dark:text-[#FAF5[...]
                   aria-label={social.label}
                 >
                   {social.icon}
@@ -119,7 +120,7 @@ export const Hero: React.FC = () => {
             <div className="relative w-[300px] h-[300px] rounded-full border border-[#2D231E]/20 dark:border-[#FAF5F0]/20 p-2 bg-white/40 dark:bg-[#221815]/30">
               <div className="w-full h-full rounded-full border border-[#2D231E] dark:border-[#FAF5F0] overflow-hidden bg-white dark:bg-[#221815] flex items-center justify-center relative">
                 <img
-                  src="/passphoto.png"
+                  src={passphotoImg}
                   alt="Gogineni Jaasmitha"
                   className="w-full h-full object-cover scale-[1.05]"
                 />
@@ -189,7 +190,7 @@ export const Hero: React.FC = () => {
                 initial={{ opacity: 0, x: 40 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
-                className={`flex items-center gap-4 p-4 rounded-2xl shadow-sm border border-[#2D231E]/5 dark:border-white/5 hover:translate-y-[-2px] transition-transform duration-250 ${card.bgClass}`}
+                className={`flex items-center gap-4 p-4 rounded-2xl shadow-sm border border-[#2D231E]/5 dark:border-white/5 hover:translate-y-[-2px] transition-transform duration-250 ${card.bgCla[...]
               >
                 {/* Icon Circle */}
                 <div className="w-10 h-10 rounded-xl bg-white dark:bg-[#2D231E]/30 flex items-center justify-center shadow-sm shrink-0">
